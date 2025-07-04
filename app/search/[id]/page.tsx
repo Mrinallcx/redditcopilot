@@ -41,34 +41,34 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
     return {
         title: title,
         description: 'A search in scira.ai',
-        openGraph: {
-            title: title,
-            url: `https://scira.ai/s/${id}`,
-            description: 'A search in scira.ai',
-            siteName: 'scira.ai',
-            images: [
-                {
-                    url: `https://scira.ai/api/og/chat/${id}`,
-                    width: 1200,
-                    height: 630,
-                },
-            ],
-        },
-        twitter: {
-            card: 'summary_large_image',
-            title: title,
-            url: `https://scira.ai/s/${id}`,
-            description: 'A search in scira.ai',
-            siteName: 'scira.ai',
-            creator: '@sciraai',
-            images: [
-                {
-                    url: `https://scira.ai/api/og/chat/${id}`,
-                    width: 1200,
-                    height: 630,
-                },
-            ],
-        },
+        // openGraph: {
+        //     title: title,
+        //     url: `https://scira.ai/s/${id}`,
+        //     description: 'A search in scira.ai',
+        //     siteName: 'scira.ai',
+        //     images: [
+        //         {
+        //             url: `https://scira.ai/api/og/chat/${id}`,
+        //             width: 1200,
+        //             height: 630,
+        //         },
+        //     ],
+        // },
+        // twitter: {
+        //     card: 'summary_large_image',
+        //     title: title,
+        //     url: `https://scira.ai/s/${id}`,
+        //     description: 'A search in scira.ai',
+        //     siteName: 'scira.ai',
+        //     creator: '@sciraai',
+        //     images: [
+        //         {
+        //             url: `https://scira.ai/api/og/chat/${id}`,
+        //             width: 1200,
+        //             height: 630,
+        //         },
+        //     ],
+        // },
         alternates: {
             canonical: `https://scira.ai/s/${id}`,
         },

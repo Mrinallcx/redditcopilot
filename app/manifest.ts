@@ -32,12 +32,12 @@ export default function manifest(): MetadataRoute.Manifest {
         type: "image/png"
       }
     ],
-    screenshots: [
-      {
-        src: "/opengraph-image.png",
-        type: "image/png",
-        sizes: "1200x630",
-      }
-    ]
+    // screenshots: [
+    //   {
+    //     src: "/opengraph-image.png",
+    //     type: "image/png",
+    //     sizes: "1200x630",
+    //   }
+    // ]
   }
 }

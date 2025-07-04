@@ -17,11 +17,6 @@ export const metadata: Metadata = {
     template: "%s | BharatX",
     absolute: "BharatX",
   },
-  description: "BharatX: Your AI powered Reddit copilot.",
-  openGraph: {
-    url: "https://bharatx.ai",
-    siteName: "BharatX",
-  },
   keywords: [
     "bharatx.ai",
     "bharatx",
